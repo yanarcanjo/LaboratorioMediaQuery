@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cor1, .cor2, .cor3, .cor4, .cor5 {
+    width: 100vw;
+    display: none;
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    .cor1 {
+        display: block;
+        background-color: green; 
+        height: 100vh;  
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1279px) {
+    .cor1 {
+        display: block;
+        background-color: green;   
+        height: 50vh;
+    }
+    .cor2 {
+        display: block;
+        background-color: blue;
+        height: 50vh;
+    }
+}
+
+@media (min-width: 1279px){
+    .cor1 {
+        display: block;
+        background-color: green; 
+        height: 20vh;  
+    }
+    .cor2{
+        display: block;
+        background-color: blue; 
+        height: 20vh;  
+    }
+
+    .cor3 {
+        display: block;
+        background-color: palevioletred; 
+        height: 20vh;  
+    }
+    .cor4 {
+        display: block;
+        background-color: green; 
+        height: 20vh;  
+    }
+    .cor5{
+        display: block;
+        background-color: blue; 
+        height: 20vh;  
+    }
+}
